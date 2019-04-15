@@ -1,7 +1,7 @@
 <template>
   <v-img
     :src="imageUrl"
-    class="product-image"
+    class="product-image ma-4"
     :class="{'no-opacity': !showImage }"
   />
 </template>
