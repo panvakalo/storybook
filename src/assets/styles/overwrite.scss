@@ -1,0 +1,19 @@
+.menuable__content__active {
+  left: 0 !important;
+  top: 60px !important;
+}
+
+.v-select__selections {
+  padding-top: 0 !important;
+}
+
+.material-dropdown {
+  .v-input__slot {
+    border: 1px solid #DFDFDF !important;
+  }
+}
+
+.small {
+  color: rgba(0,0,0,.5);
+  font-size: 10px;
+}

@@ -1,23 +1,19 @@
 <template>
-  <div id="app">
-    This is a Storybook assessment test
-  </div>
+  <v-app>
+    this is a storybook assessment
+  </v-app>
 </template>
 
 <script>
+import store from "./store";
 
 export default {
-  name: 'app',
+  name: 'App',
+  store,
+  data () {
+    return {
+      //
+    }
+  }
 }
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

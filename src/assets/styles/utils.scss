@@ -1,0 +1,33 @@
+* {
+  font-family: "Helvetica Neue",Helvetica,sans-serif;
+  font-weight: normal;
+}
+
+.hover {
+  cursor: pointer;
+}
+
+.no-border-radius {
+  border-radius: 0;
+
+  .v-input__slot {
+    border-radius: 0 !important;
+  }
+}
+
+.text--underline {
+  text-decoration: underline;
+}
+
+.pos-relative {
+  position: relative;
+}
+
+.clear {
+  clear: both;
+}
+
+.full-opacity {
+  opacity: 1 !important;
+  display: block !important;
+}
