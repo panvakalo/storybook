@@ -1,29 +1,7 @@
-# storybook
+# Storybook assessment test
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Developer's notes
+- there was an effort to match styling as much as possible, taken into consideration that graphics or styling rules had to be detected and retrieved from production website
+- assessment was mentioning **one** storybook component, therefore there is only **one** story, even if there are multiple components existing in the project
+- there hasn't been thorough effort in mimicking the tooltip behavior of the production website, only the basic functionality is provided
+- there is no API involved into getting colors data, therefore I followed approach of getting data from **story props**
